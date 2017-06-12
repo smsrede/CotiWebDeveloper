@@ -1,10 +1,13 @@
 package entity;
 
+import java.text.SimpleDateFormat;
+
 public class Consumidor {
 
 	private String nome;
 	private String mensagem;// relativo ao produto se esta barato
 
+	static final SimpleDateFormat SDF = new SimpleDateFormat("dd/MM/yyyy");
 	
 	public Consumidor() {
 		// TODO Auto-generated constructor stub
